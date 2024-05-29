@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+    input[type=search] {
+        width: 100%;
+        box-sizing: border-box;
+        border: none;
+        border-bottom: 1px solid #ccc;
+        font-size: 16px;
+        background-color: none;
+        background-image: url('searchicon.png');
+        background-position: 10px 10px; 
+        background-repeat: no-repeat;
+        padding: 12px 20px 12px 40px;
+        outline: none;
+    }
+    
+    </style>
+
+    <title>Phone Book</title>
+    <!-- rel = relationship betweeen two files -->
+    <link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+    <!-- OnClick to link button to function-->
+    <a href="addContact.html"><button>+</button></a>
+    <!-- For how browser understands that part of the page, usually not needed unless you have more than one search, semantics
+    does not affect UI -->
+    <!-- <search> -->
+        <input type="search" placeholder="Search">
+    <!-- </search> -->
+    <h1>Contacts</h1>
+
+    <!-- Fetch contacts from local storage and display on screen -->
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
